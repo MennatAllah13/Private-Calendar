@@ -50,6 +50,6 @@
 		$password=$_POST['password'];
 		$userType=$_POST['userType'];
 		
-		$x=Admin::addUser($username,$password,$userType);
+		$x=Admin::deleteUser($username,$password,$userType);
 	}
 ?>
